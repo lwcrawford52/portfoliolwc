@@ -1,0 +1,298 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* Styles begin here */
+html,
+body {
+   margin:0;
+   padding:0;
+  height:100%;
+   background: url('http://i306.photobucket.com/albums/nn258/lwcstyling/rockywall.png') repeat;
+}
+
+#container {
+min-height:100%;
+   position: relative;
+}
+#header {
+background: rgba(255, 136, 104, 0.6);
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+padding: 0px;
+}
+#body {
+overflow:auto;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+h1 {
+width: 960px;
+font-family: 'italiana';
+font-size: 60px;
+color: #0f0f0f;
+text-transform: uppercase;
+padding: 18px 0px 0px 200px;
+/* text-align: center; */
+}
+
+h1 a {
+text-decoration: none;
+color: #180e41;
+}
+
+h2 {
+font-family: 'open sans condensed', sans-serif;
+font-size: 52px;
+color: #7b2141;
+padding-top: 15px;
+}
+
+h3 {
+font-family: 'open sans condensed', sans-serif;
+font-size: 44px;
+font-weight: 700;
+color: #7b2141;
+}
+
+p {
+font-family: 'open sans condensed', sans-serif;
+font-size: 24px;
+text-align: justify;
+/* padding-top: 12px; */
+color: #180e41;
+}
+
+/* Navigation */
+
+
+.navigation {
+width: 960px;
+padding: 0px 0px 12px 410px;
+}
+
+.navigation li {
+display: inline;
+  font-family: 'open sans condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1em;
+  color: #7b2141;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #7b2141;
+}
+
+.navigation a:hover {
+  font-weight: bold;
+}
+
+/* Main Page */
+
+#lisaimg {
+float: left;
+padding: 30px 0px 40px 190px;
+
+}
+
+#lisabio {
+float: left;
+width: 450px;
+padding: 50px 0px 40px 50px;
+}
+
+#lisabio p {
+padding-top: 12px;
+}
+
+#lisabio a {
+text-decoration: none;
+color: #7b2141;
+}
+
+#build {
+font-weight: 700;
+color: #7b2141;
+}
+
+#you {
+text-transform: uppercase;
+font-weight: 700;
+}
+
+/* Work Page */
+
+#workinfo {
+width: 440px;
+padding: 40px 0px 20px 200px;
+}
+
+.site-links {
+padding: 30px 0px 0px 200px;
+}
+
+.site-links a img {
+opacity: 0.6; 
+filter: alpha(opacity=60);
+}
+
+.site-links a img:hover {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+
+.site-links p {
+text-align: center;
+}
+
+
+#cambrian-link {
+width: 260px;
+float: left;
+padding: 30px 0px 50px 20px;
+}
+#hmm-link {
+width: 260px;
+float: left;
+padding: 30px 0px 50px 20px;
+}
+#orig-link {
+width: 260px;
+float: left;
+padding: 30px 0px 50px 20px;
+}
+
+#caption-one, #caption-two, #caption-three {
+  display: none;
+  padding-bottom: 40px;
+}
+
+#buffer {
+margin-bottom: 380px;
+}
+/* Cambrian */
+
+.rw-description {
+padding: 50px 0px 0px 200px;
+}
+
+.rw-description p {
+padding-left: 3px;
+}
+
+.screenshot {
+padding: 30px 0px 50px 200px;
+}
+
+.screenshot img {
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+}
+
+/* Contact Page */
+
+#contact-page h2{
+padding: 40px 0px 20px 200px;
+}
+
+#contact-page h3 {
+padding-left: 300px;
+}
+
+#contact-page ul {
+padding-left: 300px;
+list-style-type: none;
+}
+
+#contact-page ul li {
+display: inline;
+padding: 0px 5px 0px 5px;
+}
+
+#contact-page a {
+text-decoration: none;
+color: #7b2141;
+}
+
+#buffer-c {
+margin-bottom: 310px;
+}
+
+/* Footer */
+
+#footer {
+  position: relative;
+  margin-top: -80px; /* negative value of footer height */
+  height: 80px;
+  clear:both;
+background: rgba(255, 136, 104, 0.6);
+text-align: center;
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .2);
+}
+#footer ul {
+  padding-top: 10px;
+}
+#footer ul li {
+display: inline;
+padding: 20px 5px 0px 5px;
+}
+
+#footer li a {
+text-decoration: none;
+color: #180e41;
+}
+
+
+

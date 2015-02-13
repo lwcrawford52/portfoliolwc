@@ -1,0 +1,198 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* Back to Portfolio */
+
+
+/* Styles begin here */
+h1 {
+text-align: center; 
+font-family: 'didot'; 
+font-size: 63px;  
+color: #ffffff; 
+line-height: 25px;
+padding-top: 25px;
+}
+h2 {
+text-align: center; 
+font-family: 'didot'; 
+font-size: 40px; 
+padding-top: 30px; 
+color: #FF6443;
+}
+h3 {
+font-family: 'zeyada'; 
+text-align: center; 
+font-size: 30px; 
+color: #433761;
+}
+p {font-family: 'raleway'; 
+font-size: 16px; 
+color: #252525; 
+margin: 20px 20px 0px 20px;
+}
+
+body {
+background: url('http://i306.photobucket.com/albums/nn258/lwcstyling/LCrawford-main-10-28.jpg') no-repeat;
+max-width: 960px;
+margin: 0 auto;
+width: 100%;
+}
+#main {
+margin: 200px 150px 300px 150px;
+background: rgba(255, 100, 67, 0.8); 
+border-radius: 15px;
+border: 1px dashed #252525;
+padding: 30px 0px 20px 0px;
+text-align: center;
+}
+#blurb {
+font-family: 'zeyada'; 
+font-size: 24px; 
+color: #ffffff;
+border-bottom: 1px dashed #ffffff;
+padding-bottom: 5px;
+text-align: center;
+}
+#sitenav {
+height: 30px;
+padding-top: 25px;
+}
+ul li {
+font-family: 'didot';
+text-transform: uppercase;
+text-align: right;
+font-size: 18px;
+display: inline;
+padding: 15px 15px 0px 15px;
+}
+ul li a {
+text-decoration: none;
+color: #ffffff;
+}
+#about {background: url('http://i306.photobucket.com/albums/nn258/lwcstyling/clean_textile.png') repeat;
+margin: 0px 130px 100px 130px;
+border-radius: 15px;
+border: 1px dashed #252525;
+}
+#hithere {
+    margin-top: 20px;
+    text-align: center;
+    height: 280px;
+}
+#learnmore {
+text-decoration: none;
+}
+#hidebio {
+  text-decoration: none;
+  font-family: 'raleway'; 
+font-size: 16px; 
+color: #252525;
+}
+.intro {
+font-family: 'raleway'; 
+font-size: 16px; 
+text-align: left; 
+color: #252525; 
+margin: 15px 25px 0px 25px;
+}
+
+#experience {
+background: url('http://i306.photobucket.com/albums/nn258/lwcstyling/clean_textile.png') repeat; 
+height: 650px;
+border-radius: 15px;
+border: 1px dashed #252525;
+margin: 50px 0px 100px 0px;
+}
+.boxes {
+float: left;
+    margin: 40px 10px 40px 15px;
+    width: 290px;
+    height: 420px;
+    border: 1px solid #433761;
+    text-align: justify;
+    background: #FFFFFF;
+  display: block;
+  padding-top: 20px;
+  }
+
+#tech {
+background: url('http://i306.photobucket.com/albums/nn258/lwcstyling/clean_textile.png') repeat; 
+height: 500px;
+border-radius: 15px;
+border: 1px dashed #252525;
+margin: 50px 0px 100px 0px;
+}
+#design {
+    margin: 50px 130px 40px 130px;
+    width: 700px;
+    height: 230px;
+    border: 1px solid #433761;
+    text-align: justify;
+    background: #ffffff;
+  display: block;
+  padding-top: 20px;
+  }
+#contact {
+border-radius: 15px 15px 0px 0px;
+border: 1px dashed #252525;
+margin: 50px 0px 0px 0px;
+background: rgba(255, 100, 67, 0.8); 
+border: 1px dashed #252525;
+padding: 5px 0px 20px 0px;
+text-align: center;
+height: 200px;
+}
+#contactheader {
+font-family: 'zeyada';
+color: #ffffff;
+padding-bottom: 25px;
+}
+#buttons ul {
+color: #ffffff;
+}

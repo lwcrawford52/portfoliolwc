@@ -1,0 +1,71 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Lisa Crawford</title>
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+  <link rel="stylesheet" href="original.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Zeyada' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+  
+<section id="main">
+<h1>LISA CRAWFORD</h1>
+<p id="blurb">A perpetually curious maker with a passion for handcrafted design.</p>
+<ul id="sitenav"><li><a href='#about'>About</a></li>
+<li><a href='#experience'>Experience</a></li>
+<li><a href='#tech'>Work</a></li>
+<li><a href='#contact'>Contact</a></li></ul></section>
+
+<section id="about">
+<h2>ABOUT</h2>
+<div id="hithere"><h3>Hi there!  I'm Lisa, and I like to make things. <a id="learnmore" style="display: inline" href="#about"> More...</a></h3>
+<span id="more-bio" style="display: none">
+<p class='intro'>Whether it's a website, a new frock, or even a giant snowball made of trash bags and chicken wire (this actually happened), creating something from nothing gives me a rush.</p>
+<p class='intro'>I graduated from Baylor U with a degree in merchandising, and have several years of experience in the fashion industry specializing in styling and store display.  Earlier this year, I decided to turn my creative eye to web design.  I've fallen in love with coding and its endless possibilities!</p>
+<p class='intro'>When I'm not coding or chasing after a busy toddler, you'll find me whipping up a green smoothie or making some obscure Monty Python reference. Splunge! 
+<a id="hide-bio" href="#about">Hide.</a></p></span></div></section>
+<section id="experience">
+<h2>EXPERIENCE</h2>
+<div class="boxes"><h3>Visual Merchandiser</h3>
+<p>Laying sod on a city sidewalk to create a tiny "park"?  I've done that.  Eating TONS of fancy chocolate and using the packaging for a Valentine's Day window?  I've done that too.  From collecting tree branches to folding piles of paper airplanes to hand-dyeing fabrics, crafting an inspiring store environment was my first love.  My store display work ranged from the mundane (sourcing sign holders and assembling fixtures) to the imaginative (giant snowballs and tiny diorama jewelry displays).</p></div>
+<div class="boxes"><h3>Seamstress</h3>
+<p>My dressmaker mother taught me to thread a needle at a young age, and I've been hooked ever since.  I started by making clothes for my Barbies, then went on to design and create my own high school prom dress and copy designer pieces I definitely couldn't afford on my allowance!  I've moved on from my knockoff Gucci sequined trousers (thank goodness), but I've continued to craft my own wardrobe, piece by piece. </p></div>  
+<div class="boxes"><h3>Personal Stylist</h3>
+<p>After many years in specialty retail, I developed a passion for helping others find their style.  I enjoyed it so much that I began offering my services on a freelance basis, helping clients style items they already own and recommending any missing staple pieces.  Recently, I've decided to take a dose of my own medicine by dumping my entire closet and starting from scratch.</p></div>  
+  </section>
+<section id="tech">
+<h2>WORK</h2>
+<div id="design"><h3>Web Design & Development</h3>
+<p>Coding has become my newest obsession.  I've officially gone from window design to web design (ha, ha...).  I designed and coded this website from scratch, and am currently working on a few other design projects.  I'm also working on beefing up my JS skills and learning all there is to know about WordPress & PHP.</p>
+<p>Check back soon as I update my portfolio.  Thanks for visiting!</p></div></section>
+
+<section id="contact">
+<h2 id="contactheader">Let's keep in touch!</h2>
+
+<ul><li><a href='mailto:lisawcrawford@gmail.com'><i class="fa fa-envelope fa-3x"></i></a></li>
+<li><a href='https://www.linkedin.com/profile/view?id=36082032&trk=nav_responsive_tab_profile' target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+</ul>
+</section>
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="text/javascript" href="script.js"></script>
+  <script src="https://raw.githubusercontent.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js"></script>
+<script>
+$('ul li a').smoothScroll();
+
+var moreBio = $('#learnmore');
+moreBio.click(expandBio);
+function expandBio() {
+  var hiddenText = document.getElementById('more-bio');
+  hiddenText.style.display = "block";}
+var hideButton = $('#hide-bio');
+hideButton.click(hideFunction);
+function hideFunction() {
+  var removeText = document.getElementById("more-bio");
+  removeText.style.display = "none";}
+</script>
+</html>
